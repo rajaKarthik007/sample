@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to right top, #180999, #0055c6, #0084ca, #00acbc, #75cfb8);
+
+}
+.box{
+  width: 90%;
+  margin: 50px auto;
+  height: 100vh;
+  background-color: #46b5d1;
+  box-shadow: -10px 5px 5px #222831;
+  display: flex;
+}
+.b1{
+  flex:1;
+  height: inherit;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+.b2{
+  flex:2;
+  background-color: #fff;
+  background-image: url("NIT_Andhra_Pradesh.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.33;
+  height: inherit;
+}
+.recipent-pic{
+  margin-top: 25vh;
+}
+.basic-info{
+  padding-top: 2rem;
+  font-size: 1.2rem;
+}
+.contact{
+  position: relative;
+  bottom: 1rem;
+}
